@@ -1,0 +1,563 @@
+.birinci {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A2D2DF;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Chewy", system-ui;
+    font-size: 290pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.p1 {
+    font-family: "Arima", system-ui;
+    font-size: 24pt;
+    font-weight: 550;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.altcizgi {
+    text-decoration: underline;
+}
+
+.ikinci {
+    background-color: #F6EFBD;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resimlik {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.yuvarlak-buyuk {
+    height: 256px;
+    width: 256px;
+    border: #A2D2DF solid 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.yuvarlak-orta {
+    height: 216px;
+    width: 216px;
+    border: #E4C087 solid 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.yuvarlak-kucuk {
+    height: 176px;
+    width: 176px;
+    border: #BC7C7C solid 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.ben {
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.p2 {
+    font-family: "Arima", system-ui;
+    font-size: 24pt;
+    font-weight: 550;
+    color: #BC7C7C;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 40px;
+}
+
+.ucuncu {
+    background-color: #F6EFBD;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.satir {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    padding-right: 0;
+}
+
+.amwayyu {
+    height: 176px;
+    width: 176px;
+    border: #BC7C7C solid 10px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.amway-logo {
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.text {
+    font-family: "Arima", system-ui;
+    font-size: 24pt;
+    font-weight: 550;
+    color: #BC7C7C;
+}
+
+.waveyu {
+    height: 176px;
+    width: 176px;
+    aspect-ratio: 1/1;
+    border: #E4C087 solid 10px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.wave-logo {
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.defteryu {
+    height: 176px;
+    width: 176px;
+    border: #A2D2DF solid 10px;
+    border-radius: 50%;
+    position: absolute
+}
+
+.defter-logo {
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.codeyu {
+    height: 176px;
+    width: 176px;
+    aspect-ratio: 1/1;
+    border: #BC7C7C solid 10px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.code-logo {
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.amwaytext {
+    margin-left: 230px;
+}
+
+.wave {
+    margin-right: 0
+}
+
+.deftertext {
+    margin-left: 230px;
+}
+
+.code {
+    margin-right: 8%;
+}
+
+.codetext {
+    margin-right: 30px;
+}
+
+.dorduncu {
+    background-color: #E4C087;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bas {
+    font-family: "Arima", system-ui;
+    font-size: 24pt;
+    font-weight: 550;
+    color: #F6EFBD;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.son {
+    font-family: "Arima", system-ui;
+    font-size: 24pt;
+    font-weight: 550;
+    color: #F6EFBD;
+    margin-bottom: 200px;
+}
+
+.getintouch {
+    text-decoration: none;
+    font-family: "Chewy", system-ui;
+    font-size: 100pt;
+    color: #F6EFBD;
+}
+
+.besinci {
+    background-color: #BC7C7C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkler {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.sosyal {
+    font-family: "Arima", system-ui;
+    font-size: 12pt;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ismim {
+    color: white;
+    font-family: "Arima", system-ui;
+    font-size: 10pt;
+    margin-bottom: 25px;
+}
+
+body {
+    margin: 0;
+}
+
+
+@media (max-width: 1340px) and (min-width: 1201px) {
+
+
+    .birinci {
+        justify-content: center;
+        height: 100vh;
+    }
+    .ucuncu {
+        height: 170vh;
+    }
+    .satir {
+        margin-bottom: 100px;
+        margin-right: 15%;
+    }
+
+    .wavetext {
+        margin-left: 150px;
+    }
+
+    .codetext {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+    h1 {
+        font-size: 200pt;
+    }
+    .birinci {
+        justify-content: center;
+    }
+
+    .satir {
+        margin-bottom: 150px;
+        margin-right: 15%;
+    }
+
+    .ucuncu {
+        height: 300vh;
+    }
+
+    .linkler {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 900px) and (min-width: 541px) {
+    h1 {
+        font-size: 150pt;
+    }
+    .birinci {
+        justify-content: center;
+    }
+
+    .ucuncu {
+        height: auto;
+    }
+
+    .ikinci {
+        height: 900px;
+    }
+
+    .satir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .amwayyu {
+        position: relative;
+    }
+
+    .amway-logo {
+        order: 0;
+    }
+
+    .amwaytext {
+        order: 1;
+        margin-left: 0;
+        margin-bottom: 80px;
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
+    .wave {
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+    }
+
+    .waveyu {
+        margin-left: 0;
+    }
+
+    .wavetext {
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
+    .defteryu {
+        position: relative;
+    }
+
+    .deftertext {
+        margin-left: 0;
+        margin-bottom: 80px;
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
+    .code {
+        flex-direction: column-reverse;
+    }
+
+    .codetext {
+        margin-bottom: 80px;
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
+    .getintouch {
+        font-size: 75pt;
+    }
+
+    .linkler {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sosyal {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 100pt;
+    }
+
+    .birinci {
+        justify-content: center;
+    }
+
+
+    .ucuncu {
+        height: auto;
+    }
+
+    .resimlik {
+        margin-bottom: 35px;
+    }
+
+    .ikinci {
+        height: 900px;
+    }
+
+    .p2 {
+        font-size: 18pt;
+    }
+
+    .satir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .amwayyu {
+        position: relative;
+        height: 156px;
+        width: 156px;
+    }
+
+    .amway-logo {
+        order: 0;
+        height: 136px;
+        width: 136px;
+    }
+
+    .amwaytext {
+        order: 1;
+        margin-left: 0;
+        margin-bottom: 80px;
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 18pt;
+    }
+
+    .wave {
+        flex-direction: column-reverse;
+        margin-bottom: 80px;
+    }
+
+    .waveyu {
+        margin-left: 0;
+        height: 156px;
+        width: 156px;
+    }
+
+    .wave-logo {
+        height: 136px;
+        width: 136px;
+    }
+
+    .wavetext {
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 18pt;
+    }
+
+    .defteryu {
+        position: relative;
+        height: 156px;
+        width: 156px;
+    }
+
+    .defter-logo {
+        height: 136px;
+        width: 136px;
+    }
+
+    .deftertext {
+        margin-left: 0;
+        margin-bottom: 80px;
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 18pt;
+    }
+
+    .code {
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+    }
+
+    .codeyu {
+        height: 156px;
+        width: 156px;
+    }
+
+    .code-logo {
+        height: 136px;
+        width: 136px;
+    }
+
+    .codetext {
+        margin-bottom: 80px;
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+        font-size: 18pt;
+    }
+
+    .dorduncu {
+        height: 100vh;
+        justify-content: center;
+    }
+    .bas, .son {
+        font-size: 18pt;
+    }
+
+    .getintouch {
+        font-size: 50pt;
+    }
+
+    .linkler {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sosyal {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
